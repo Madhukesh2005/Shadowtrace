@@ -1,0 +1,966 @@
+{
+  "AD-HDFCBK": {
+    "company": "HDFC Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://hdfcbank.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-ICICIB": {
+    "company": "ICICI Bank",
+    "dpo_email": "idataprotection@icicibank.com",
+    "category": "Banking",
+    "website": "https://icicibank.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-SBINKA": {
+    "company": "State Bank of India",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://sbi.co.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-KOTAKB": {
+    "company": "Kotak Mahindra Bank",
+    "dpo_email": "dpo@kotak.com",
+    "category": "Banking",
+    "website": "https://kotak.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-AXISBK": {
+    "company": "Axis Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://axisbank.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-PNBSMS": {
+    "company": "Punjab National Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://pnb.co.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-BOBSMS": {
+    "company": "Bank of Baroda",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://bankofbaroda.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-CANBNK": {
+    "company": "Canara Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://canarabank.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-UNIONB": {
+    "company": "Union Bank of India",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://unionbankofindia.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-INDBNK": {
+    "company": "Indian Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://indianbank.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-YESBNK": {
+    "company": "Yes Bank",
+    "dpo_email": "dpo@yesbank.in",
+    "category": "Banking",
+    "website": "https://yesbank.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-IDBIBK": {
+    "company": "IDBI Bank",
+    "dpo_email": null,
+    "category": "Banking",
+    "website": "https://idbi.co.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-FEDERL": {
+    "company": "Federal Bank",
+    "dpo_email": "dpo@federalbank.co.in",
+    "category": "Banking",
+    "website": "https://federalbank.co.in",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-INDBUL": {
+    "company": "IndusInd Bank",
+    "dpo_email": "dpo@indusind.com",
+    "category": "Banking",
+    "website": "https://indusind.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "AD-RBLBNK": {
+    "company": "RBL Bank",
+    "dpo_email": "dpo@rblbank.com",
+    "category": "Banking",
+    "website": "https://rblbank.com",
+    "data_held": ["phone", "email", "account details", "kyc", "pan", "aadhaar"]
+  },
+  "CP-PAYTM": {
+    "company": "Paytm",
+    "dpo_email": "grievance@paytm.com",
+    "category": "Fintech",
+    "website": "https://paytm.com",
+    "data_held": [
+      "phone",
+      "email",
+      "upi_id",
+      "kyc",
+      "pan",
+      "aadhaar",
+      "bank account"
+    ]
+  },
+  "CP-PHONPE": {
+    "company": "PhonePe",
+    "dpo_email": "grievance@phonepe.com",
+    "category": "Fintech",
+    "website": "https://phonepe.com",
+    "data_held": [
+      "phone",
+      "email",
+      "upi_id",
+      "kyc",
+      "pan",
+      "aadhaar",
+      "bank account"
+    ]
+  },
+  "CP-GPAY": {
+    "company": "Google Pay",
+    "dpo_email": null,
+    "category": "Fintech",
+    "website": "https://pay.google.com",
+    "data_held": [
+      "phone",
+      "email",
+      "upi_id",
+      "bank account",
+      "transaction history"
+    ]
+  },
+  "CP-CRED": {
+    "company": "CRED",
+    "dpo_email": "privacy@cred.club",
+    "category": "Fintech",
+    "website": "https://cred.club",
+    "data_held": ["phone", "email", "pan", "credit score", "card details"]
+  },
+  "CP-MOBIKW": {
+    "company": "MobiKwik",
+    "dpo_email": "dpo@mobikwik.com",
+    "category": "Fintech",
+    "website": "https://mobikwik.com",
+    "data_held": ["phone", "email", "upi_id", "kyc", "aadhaar", "bank account"]
+  },
+  "CP-RAZRPY": {
+    "company": "Razorpay",
+    "dpo_email": "dpo@razorpay.com",
+    "category": "Fintech",
+    "website": "https://razorpay.com",
+    "data_held": [
+      "phone",
+      "email",
+      "bank account",
+      "pan",
+      "transaction history"
+    ]
+  },
+  "CP-UPSTOX": {
+    "company": "Upstox",
+    "dpo_email": "dpo@upstox.com",
+    "category": "Fintech",
+    "website": "https://upstox.com",
+    "data_held": ["phone", "email", "pan", "aadhaar", "bank account", "kyc"]
+  },
+  "CP-ZERODH": {
+    "company": "Zerodha",
+    "dpo_email": "dpo@zerodha.com",
+    "category": "Fintech",
+    "website": "https://zerodha.com",
+    "data_held": ["phone", "email", "pan", "aadhaar", "bank account", "kyc"]
+  },
+  "CP-GROWW": {
+    "company": "Groww",
+    "dpo_email": "dpo@groww.in",
+    "category": "Fintech",
+    "website": "https://groww.in",
+    "data_held": ["phone", "email", "pan", "aadhaar", "bank account", "kyc"]
+  },
+  "CP-BHARPE": {
+    "company": "BharatPe",
+    "dpo_email": "dpo@bharatpe.com",
+    "category": "Fintech",
+    "website": "https://bharatpe.com",
+    "data_held": ["phone", "email", "upi_id", "pan", "aadhaar", "bank account"]
+  },
+  "CP-FREECHARGE": {
+    "company": "FreeCharge",
+    "dpo_email": "dpo@freecharge.in",
+    "category": "Fintech",
+    "website": "https://freecharge.in",
+    "data_held": ["phone", "email", "upi_id", "bank account"]
+  },
+  "CP-SIMPL": {
+    "company": "Simpl",
+    "dpo_email": "dpo@getsimpl.com",
+    "category": "Fintech",
+    "website": "https://getsimpl.com",
+    "data_held": [
+      "phone",
+      "email",
+      "pan",
+      "bank account",
+      "transaction history"
+    ]
+  },
+  "CP-LAZYPAY": {
+    "company": "LazyPay",
+    "dpo_email": "dpo@lazypay.in",
+    "category": "Fintech",
+    "website": "https://lazypay.in",
+    "data_held": ["phone", "email", "pan", "aadhaar", "bank account"]
+  },
+  "JM-ZOMATO": {
+    "company": "Zomato",
+    "dpo_email": "privacy@zomato.com",
+    "category": "Food Delivery",
+    "website": "https://zomato.com",
+    "data_held": ["phone", "email", "address", "location", "order history"]
+  },
+  "JM-SWIGGY": {
+    "company": "Swiggy",
+    "dpo_email": "grievance@swiggy.in",
+    "category": "Food Delivery",
+    "website": "https://swiggy.com",
+    "data_held": ["phone", "email", "address", "location", "order history"]
+  },
+  "JM-DOMIND": {
+    "company": "Dominos India",
+    "dpo_email": "dpo@dominos.co.in",
+    "category": "Food Delivery",
+    "website": "https://dominos.co.in",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "JM-MCDINB": {
+    "company": "McDonald's India",
+    "dpo_email": null,
+    "category": "Food Delivery",
+    "website": "https://mcdonalds.co.in",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "JM-FLPKRT": {
+    "company": "Flipkart",
+    "dpo_email": "grievance@flipkart.com",
+    "category": "E-Commerce",
+    "website": "https://flipkart.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "JM-AMAZON": {
+    "company": "Amazon India",
+    "dpo_email": null,
+    "category": "E-Commerce",
+    "website": "https://amazon.in",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "JM-MYNTRA": {
+    "company": "Myntra",
+    "dpo_email": "dpo@myntra.com",
+    "category": "E-Commerce",
+    "website": "https://myntra.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "JM-MEESHO": {
+    "company": "Meesho",
+    "dpo_email": "dpo@meesho.com",
+    "category": "E-Commerce",
+    "website": "https://meesho.com",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "JM-NYKAA": {
+    "company": "Nykaa",
+    "dpo_email": "dpo@nykaa.com",
+    "category": "E-Commerce",
+    "website": "https://nykaa.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "JM-AJIO": {
+    "company": "AJIO",
+    "dpo_email": "dpo@ajio.com",
+    "category": "E-Commerce",
+    "website": "https://ajio.com",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "JM-SNAPDL": {
+    "company": "Snapdeal",
+    "dpo_email": "help@snapdeal.com",
+    "category": "E-Commerce",
+    "website": "https://snapdeal.com",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "JM-BIGBSK": {
+    "company": "BigBasket",
+    "dpo_email": "dpo@bigbasket.com",
+    "category": "E-Commerce",
+    "website": "https://bigbasket.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "JM-BLINKT": {
+    "company": "Blinkit",
+    "dpo_email": "dpo@blinkit.com",
+    "category": "E-Commerce",
+    "website": "https://blinkit.com",
+    "data_held": ["phone", "email", "address", "location", "order history"]
+  },
+  "JM-ZEPTO": {
+    "company": "Zepto",
+    "dpo_email": "dpo@zeptonow.com",
+    "category": "E-Commerce",
+    "website": "https://zeptonow.com",
+    "data_held": ["phone", "email", "address", "location", "order history"]
+  },
+  "JM-JIOCOM": {
+    "company": "JioMart",
+    "dpo_email": null,
+    "category": "E-Commerce",
+    "website": "https://jiomart.com",
+    "data_held": ["phone", "email", "address", "order history"]
+  },
+  "AD-JIORMS": {
+    "company": "Jio",
+    "dpo_email": "care@jio.com",
+    "category": "Telecom",
+    "website": "https://jio.com",
+    "data_held": [
+      "phone",
+      "email",
+      "aadhaar",
+      "kyc",
+      "call records",
+      "location"
+    ]
+  },
+  "AD-AIRTEL": {
+    "company": "Airtel",
+    "dpo_email": "dpo@airtel.com",
+    "category": "Telecom",
+    "website": "https://airtel.in",
+    "data_held": [
+      "phone",
+      "email",
+      "aadhaar",
+      "kyc",
+      "call records",
+      "location"
+    ]
+  },
+  "AD-BSNLSM": {
+    "company": "BSNL",
+    "dpo_email": "grievance@bsnl.co.in",
+    "category": "Telecom",
+    "website": "https://bsnl.co.in",
+    "data_held": ["phone", "email", "aadhaar", "kyc", "call records"]
+  },
+  "AD-VODAFN": {
+    "company": "Vodafone Idea",
+    "dpo_email": "dpo@vodafoneidea.com",
+    "category": "Telecom",
+    "website": "https://myvi.in",
+    "data_held": [
+      "phone",
+      "email",
+      "aadhaar",
+      "kyc",
+      "call records",
+      "location"
+    ]
+  },
+  "BZ-BYJUS": {
+    "company": "Byju's",
+    "dpo_email": null,
+    "category": "EdTech",
+    "website": "https://byjus.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "payment details",
+      "academic data"
+    ]
+  },
+  "BZ-UNACAD": {
+    "company": "Unacademy",
+    "dpo_email": "dpo@unacademy.com",
+    "category": "EdTech",
+    "website": "https://unacademy.com",
+    "data_held": ["phone", "email", "academic data", "payment details"]
+  },
+  "BZ-WHTHJR": {
+    "company": "WhiteHat Jr",
+    "dpo_email": "dpo@whitehatjr.com",
+    "category": "EdTech",
+    "website": "https://whitehatjr.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "payment details",
+      "academic data"
+    ]
+  },
+  "BZ-VEDANT": {
+    "company": "Vedantu",
+    "dpo_email": "dpo@vedantu.com",
+    "category": "EdTech",
+    "website": "https://vedantu.com",
+    "data_held": ["phone", "email", "academic data", "payment details"]
+  },
+  "BZ-TOPPR": {
+    "company": "Toppr",
+    "dpo_email": "dpo@toppr.com",
+    "category": "EdTech",
+    "website": "https://toppr.com",
+    "data_held": ["phone", "email", "academic data", "payment details"]
+  },
+  "VM-MMTRIP": {
+    "company": "MakeMyTrip",
+    "dpo_email": "dpo@makemytrip.com",
+    "category": "Travel",
+    "website": "https://makemytrip.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "payment details",
+      "travel history"
+    ]
+  },
+  "VM-CLRTRP": {
+    "company": "Cleartrip",
+    "dpo_email": "dpo@cleartrip.com",
+    "category": "Travel",
+    "website": "https://cleartrip.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "payment details",
+      "travel history"
+    ]
+  },
+  "VM-IRCTC": {
+    "company": "IRCTC",
+    "dpo_email": "care@irctc.co.in",
+    "category": "Travel",
+    "website": "https://irctc.co.in",
+    "data_held": ["phone", "email", "aadhaar", "passport", "travel history"]
+  },
+  "VM-OYOROM": {
+    "company": "OYO",
+    "dpo_email": "dpo@oyorooms.com",
+    "category": "Travel",
+    "website": "https://oyorooms.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "payment details",
+      "stay history"
+    ]
+  },
+  "VM-GOIBBO": {
+    "company": "Goibibo",
+    "dpo_email": "dpo@goibibo.com",
+    "category": "Travel",
+    "website": "https://goibibo.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "payment details",
+      "travel history"
+    ]
+  },
+  "VM-YATRA": {
+    "company": "Yatra",
+    "dpo_email": "dpo@yatra.com",
+    "category": "Travel",
+    "website": "https://yatra.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "payment details",
+      "travel history"
+    ]
+  },
+  "AD-OLACAB": {
+    "company": "Ola",
+    "dpo_email": null,
+    "category": "Travel",
+    "website": "https://olacabs.com",
+    "data_held": [
+      "phone",
+      "email",
+      "location",
+      "trip history",
+      "payment details"
+    ]
+  },
+  "AD-UBERIN": {
+    "company": "Uber India",
+    "dpo_email": null,
+    "category": "Travel",
+    "website": "https://uber.com",
+    "data_held": [
+      "phone",
+      "email",
+      "location",
+      "trip history",
+      "payment details"
+    ]
+  },
+  "AD-RAPIDO": {
+    "company": "Rapido",
+    "dpo_email": "dpo@rapido.bike",
+    "category": "Travel",
+    "website": "https://rapido.bike",
+    "data_held": ["phone", "email", "location", "trip history"]
+  },
+  "VM-REDBUS": {
+    "company": "RedBus",
+    "dpo_email": "dpo@redbus.in",
+    "category": "Travel",
+    "website": "https://redbus.in",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "travel history",
+      "payment details"
+    ]
+  },
+  "VM-INDIGO": {
+    "company": "IndiGo Airlines",
+    "dpo_email": "dpo@goindigo.in",
+    "category": "Travel",
+    "website": "https://goindigo.in",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "travel history",
+      "payment details"
+    ]
+  },
+  "VM-AIRIND": {
+    "company": "Air India",
+    "dpo_email": "dpo@airindia.in",
+    "category": "Travel",
+    "website": "https://airindia.in",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "travel history",
+      "payment details"
+    ]
+  },
+  "AD-LICIND": {
+    "company": "LIC India",
+    "dpo_email": "customerzone@licindia.com",
+    "category": "Insurance",
+    "website": "https://licindia.in",
+    "data_held": [
+      "phone",
+      "email",
+      "pan",
+      "aadhaar",
+      "bank account",
+      "health data"
+    ]
+  },
+  "AD-PLCYBZ": {
+    "company": "PolicyBazaar",
+    "dpo_email": "dpo@policybazaar.com",
+    "category": "Insurance",
+    "website": "https://policybazaar.com",
+    "data_held": [
+      "phone",
+      "email",
+      "pan",
+      "aadhaar",
+      "health data",
+      "income details"
+    ]
+  },
+  "AD-ACKOINS": {
+    "company": "Acko Insurance",
+    "dpo_email": "dpo@acko.com",
+    "category": "Insurance",
+    "website": "https://acko.com",
+    "data_held": ["phone", "email", "pan", "aadhaar", "vehicle details"]
+  },
+  "AD-APOLLO": {
+    "company": "Apollo Hospitals",
+    "dpo_email": null,
+    "category": "Healthcare",
+    "website": "https://apollohospitals.com",
+    "data_held": [
+      "phone",
+      "email",
+      "aadhaar",
+      "health records",
+      "payment details"
+    ]
+  },
+  "AD-PRACTO": {
+    "company": "Practo",
+    "dpo_email": "dpo@practo.com",
+    "category": "Healthcare",
+    "website": "https://practo.com",
+    "data_held": ["phone", "email", "health records", "prescription data"]
+  },
+  "AD-1MGCOM": {
+    "company": "1mg",
+    "dpo_email": "dpo@1mg.com",
+    "category": "Healthcare",
+    "website": "https://1mg.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "prescription data",
+      "health records"
+    ]
+  },
+  "AD-NETMED": {
+    "company": "Netmeds",
+    "dpo_email": "dpo@netmeds.com",
+    "category": "Healthcare",
+    "website": "https://netmeds.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "prescription data",
+      "health records"
+    ]
+  },
+  "AD-PHRMEASY": {
+    "company": "PharmEasy",
+    "dpo_email": "dpo@pharmeasy.in",
+    "category": "Healthcare",
+    "website": "https://pharmeasy.in",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "prescription data",
+      "health records"
+    ]
+  },
+  "AD-INDMRT": {
+    "company": "IndiaMART",
+    "dpo_email": "dpo@indiamart.com",
+    "category": "B2B",
+    "website": "https://indiamart.com",
+    "data_held": ["phone", "email", "address", "business details"]
+  },
+  "AD-TRULCR": {
+    "company": "Truecaller",
+    "dpo_email": "privacy@truecaller.com",
+    "category": "Utility",
+    "website": "https://truecaller.com",
+    "data_held": ["phone", "email", "contacts", "call history"]
+  },
+  "AD-SHARECHAT": {
+    "company": "ShareChat",
+    "dpo_email": "dpo@sharechat.com",
+    "category": "Social",
+    "website": "https://sharechat.com",
+    "data_held": ["phone", "email", "location", "content history"]
+  },
+  "AD-LNKDIN": {
+    "company": "LinkedIn India",
+    "dpo_email": null,
+    "category": "Jobs",
+    "website": "https://linkedin.com",
+    "data_held": ["phone", "email", "resume", "work history", "connections"]
+  },
+  "AD-NAUKRI": {
+    "company": "Naukri",
+    "dpo_email": "dpo@naukri.com",
+    "category": "Jobs",
+    "website": "https://naukri.com",
+    "data_held": ["phone", "email", "resume", "work history"]
+  },
+  "AD-BOOKED": {
+    "company": "BookMyShow",
+    "dpo_email": "dpo@bookmyshow.com",
+    "category": "Entertainment",
+    "website": "https://bookmyshow.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "payment details",
+      "booking history"
+    ]
+  },
+  "AD-HOTSTR": {
+    "company": "Hotstar",
+    "dpo_email": null,
+    "category": "Entertainment",
+    "website": "https://hotstar.com",
+    "data_held": ["phone", "email", "payment details", "viewing history"]
+  },
+  "AD-SPOTFY": {
+    "company": "Spotify India",
+    "dpo_email": null,
+    "category": "Entertainment",
+    "website": "https://spotify.com",
+    "data_held": ["phone", "email", "payment details", "listening history"]
+  },
+  "AD-GAANA": {
+    "company": "Gaana",
+    "dpo_email": null,
+    "category": "Entertainment",
+    "website": "https://gaana.com",
+    "data_held": ["phone", "email", "listening history"]
+  },
+  "AD-UIADAS": {
+    "company": "UIDAI",
+    "dpo_email": "help@uidai.gov.in",
+    "category": "Government",
+    "website": "https://uidai.gov.in",
+    "data_held": ["aadhaar", "phone", "email", "biometric data", "address"]
+  },
+  "AD-COWIN": {
+    "company": "CoWIN",
+    "dpo_email": "grievance@cowin.gov.in",
+    "category": "Government",
+    "website": "https://cowin.gov.in",
+    "data_held": [
+      "aadhaar",
+      "phone",
+      "email",
+      "vaccination status",
+      "date of birth"
+    ]
+  },
+  "AD-DIGILK": {
+    "company": "DigiLocker",
+    "dpo_email": "support@digilocker.gov.in",
+    "category": "Government",
+    "website": "https://digilocker.gov.in",
+    "data_held": [
+      "aadhaar",
+      "phone",
+      "email",
+      "pan",
+      "driving license",
+      "documents"
+    ]
+  },
+  "AD-INCOTX": {
+    "company": "Income Tax India",
+    "dpo_email": "ask@incometax.gov.in",
+    "category": "Government",
+    "website": "https://incometax.gov.in",
+    "data_held": ["pan", "aadhaar", "phone", "email", "financial records"]
+  },
+  "AD-URBAN": {
+    "company": "Urban Company",
+    "dpo_email": "dpo@urbancompany.com",
+    "category": "Services",
+    "website": "https://urbancompany.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "service history",
+      "payment details"
+    ]
+  },
+  "AD-JUSTDL": {
+    "company": "JustDial",
+    "dpo_email": "dpo@justdial.com",
+    "category": "Services",
+    "website": "https://justdial.com",
+    "data_held": ["phone", "email", "address", "location"]
+  },
+  "AD-DUNZO": {
+    "company": "Dunzo",
+    "dpo_email": "dpo@dunzo.in",
+    "category": "Services",
+    "website": "https://dunzo.in",
+    "data_held": ["phone", "email", "address", "location", "order history"]
+  },
+  "AD-PORTER": {
+    "company": "Porter",
+    "dpo_email": "dpo@porter.in",
+    "category": "Services",
+    "website": "https://porter.in",
+    "data_held": ["phone", "email", "address", "location", "trip history"]
+  },
+  "AD-MGICBR": {
+    "company": "MagicBricks",
+    "dpo_email": "dpo@magicbricks.com",
+    "category": "Real Estate",
+    "website": "https://magicbricks.com",
+    "data_held": ["phone", "email", "address", "financial details"]
+  },
+  "AD-NOURIS": {
+    "company": "NoBroker",
+    "dpo_email": "dpo@nobroker.in",
+    "category": "Real Estate",
+    "website": "https://nobroker.in",
+    "data_held": ["phone", "email", "address", "financial details", "aadhaar"]
+  },
+  "AD-OLXIN": {
+    "company": "OLX India",
+    "dpo_email": "dpo@olx.com",
+    "category": "E-Commerce",
+    "website": "https://olx.in",
+    "data_held": ["phone", "email", "address", "listing history"]
+  },
+  "AD-CARS24": {
+    "company": "CARS24",
+    "dpo_email": "dpo@cars24.com",
+    "category": "E-Commerce",
+    "website": "https://cars24.com",
+    "data_held": [
+      "phone",
+      "email",
+      "aadhaar",
+      "vehicle details",
+      "payment details"
+    ]
+  },
+  "AD-LENSKRT": {
+    "company": "Lenskart",
+    "dpo_email": "dpo@lenskart.com",
+    "category": "E-Commerce",
+    "website": "https://lenskart.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "AD-TATANEU": {
+    "company": "Tata Neu",
+    "dpo_email": "dpo@tata.com",
+    "category": "E-Commerce",
+    "website": "https://tataneu.com",
+    "data_held": [
+      "phone",
+      "email",
+      "address",
+      "order history",
+      "payment details"
+    ]
+  },
+  "AD-GITHUB": {
+    "company": "GitHub",
+    "dpo_email": "privacy@github.com",
+    "category": "Technology",
+    "website": "https://github.com",
+    "data_held": ["phone", "email", "code repositories", "activity data"]
+  },
+  "AD-MSFT": {
+    "company": "Microsoft",
+    "dpo_email": null,
+    "category": "Technology",
+    "website": "https://microsoft.com",
+    "data_held": ["phone", "email", "usage data", "payment details"]
+  },
+  "AD-SNAP": {
+    "company": "Snapchat",
+    "dpo_email": null,
+    "category": "Social",
+    "website": "https://snapchat.com",
+    "data_held": ["phone", "email", "location", "content history"]
+  },
+  "AD-TGRAM": {
+    "company": "Telegram",
+    "dpo_email": null,
+    "category": "Social",
+    "website": "https://telegram.org",
+    "data_held": ["phone", "contacts", "message metadata"]
+  },
+  "AD-REDDIT": {
+    "company": "Reddit",
+    "dpo_email": "privacy@reddit.com",
+    "category": "Social",
+    "website": "https://reddit.com",
+    "data_held": ["phone", "email", "browsing history", "content history"]
+  },
+  "AD-AGODA": {
+    "company": "Agoda",
+    "dpo_email": null,
+    "category": "Travel",
+    "website": "https://agoda.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "travel history",
+      "payment details"
+    ]
+  },
+  "AD-BOOKNG": {
+    "company": "Booking.com",
+    "dpo_email": null,
+    "category": "Travel",
+    "website": "https://booking.com",
+    "data_held": [
+      "phone",
+      "email",
+      "passport",
+      "travel history",
+      "payment details"
+    ]
+  }
+}

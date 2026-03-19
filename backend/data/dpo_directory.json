@@ -1,0 +1,960 @@
+{
+  "schema_version": "2.0",
+  "note": "Demo-optimized. Simple string confidence. Clean single-node escalation paths.",
+  "companies": [
+    {
+      "id": "AD-HDFCBK",
+      "company": "HDFC Bank",
+      "category": "Banking",
+      "website": "https://www.hdfcbank.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "support@hdfcbank.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "AD-ICICIB",
+      "company": "ICICI Bank",
+      "category": "Banking",
+      "website": "https://www.icicibank.com",
+      "contacts": {
+        "dpo": "idataprotection@icicibank.com",
+        "privacy_email": null,
+        "grievance": "customer.care@icicibank.com",
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "AD-SBINKA",
+      "company": "State Bank of India",
+      "category": "Banking",
+      "website": "https://sbi.co.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "epg.cms@sbi.co.in",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "AD-KOTAKB",
+      "company": "Kotak Mahindra Bank",
+      "category": "Banking",
+      "website": "https://www.kotak.com",
+      "contacts": {
+        "dpo": "dpo@kotak.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "AD-AXISBK",
+      "company": "Axis Bank",
+      "category": "Banking",
+      "website": "https://www.axisbank.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "customer.service@axisbank.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-PAYTM",
+      "company": "Paytm",
+      "category": "Fintech",
+      "website": "https://paytm.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "care@paytm.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-PHONPE",
+      "company": "PhonePe",
+      "category": "Fintech",
+      "website": "https://www.phonepe.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "grievance@phonepe.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-GPAY",
+      "company": "Google Pay",
+      "category": "Fintech",
+      "website": "https://pay.google.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://policies.google.com/privacy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-CRED",
+      "company": "CRED",
+      "category": "Fintech",
+      "website": "https://cred.club",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "privacy@cred.club",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "JM-ZOMATO",
+      "company": "Zomato",
+      "category": "Food Delivery",
+      "website": "https://www.zomato.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "privacy@zomato.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-DOMIND",
+      "company": "Dominos India",
+      "category": "Food Delivery",
+      "website": "https://www.dominos.co.in",
+      "contacts": {
+        "dpo": "dpo@dominos.co.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-BLINKT",
+      "company": "Blinkit",
+      "category": "E-Commerce",
+      "website": "https://blinkit.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "dpo@blinkit.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-ZEPTO",
+      "company": "Zepto",
+      "category": "E-Commerce",
+      "website": "https://www.zeptonow.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "dpo@zeptonow.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-TATANEU",
+      "company": "Tata Neu",
+      "category": "E-Commerce",
+      "website": "https://www.tataneu.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "dpo@tata.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-RAPIDO",
+      "company": "Rapido",
+      "category": "Travel",
+      "website": "https://rapido.bike",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "dpo@rapido.bike",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-HOTSTAR",
+      "company": "Hotstar",
+      "category": "Entertainment",
+      "website": "https://www.hotstar.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "dpo@hotstar.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-FLPKRT",
+      "company": "Flipkart",
+      "category": "E-Commerce",
+      "website": "https://www.flipkart.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "grievance@flipkart.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-AMAZON",
+      "company": "Amazon India",
+      "category": "E-Commerce",
+      "website": "https://www.amazon.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://www.amazon.in/privacy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-MYNTRA",
+      "company": "Myntra",
+      "category": "E-Commerce",
+      "website": "https://www.myntra.com",
+      "contacts": {
+        "dpo": "dpo@myntra.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-MEESHO",
+      "company": "Meesho",
+      "category": "E-Commerce",
+      "website": "https://www.meesho.com",
+      "contacts": {
+        "dpo": "dpo@meesho.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-NYKAA",
+      "company": "Nykaa",
+      "category": "E-Commerce",
+      "website": "https://www.nykaa.com",
+      "contacts": {
+        "dpo": "dpo@nykaa.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "JM-AJIO",
+      "company": "AJIO",
+      "category": "E-Commerce",
+      "website": "https://www.ajio.com",
+      "contacts": {
+        "dpo": "dpo@ajio.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-AIRTEL",
+      "company": "Airtel",
+      "category": "Telecom",
+      "website": "https://www.airtel.in",
+      "contacts": {
+        "dpo": "dpo@airtel.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "TRAI",
+        "regulator_portal": "https://trai.gov.in"
+      }
+    },
+    {
+      "id": "AD-VI",
+      "company": "Vodafone Idea",
+      "category": "Telecom",
+      "website": "https://www.myvi.in",
+      "contacts": {
+        "dpo": "dpo@vodafoneidea.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "TRAI",
+        "regulator_portal": "https://trai.gov.in"
+      }
+    },
+    {
+      "id": "AD-BSNL",
+      "company": "BSNL",
+      "category": "Telecom",
+      "website": "https://www.bsnl.co.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "grievance@bsnl.co.in",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "TRAI",
+        "regulator_portal": "https://trai.gov.in"
+      }
+    },
+    {
+      "id": "VM-MAKEMYTRIP",
+      "company": "MakeMyTrip",
+      "category": "Travel",
+      "website": "https://www.makemytrip.com",
+      "contacts": {
+        "dpo": "dpo@makemytrip.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "VM-IRCTC",
+      "company": "IRCTC",
+      "category": "Travel",
+      "website": "https://www.irctc.co.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "care@irctc.co.in",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-LIC",
+      "company": "LIC India",
+      "category": "Insurance",
+      "website": "https://www.licindia.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "customerzone@licindia.com",
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "IRDAI",
+        "regulator_portal": "https://bimabharosa.irdai.gov.in"
+      }
+    },
+    {
+      "id": "AD-ACKO",
+      "company": "Acko Insurance",
+      "category": "Insurance",
+      "website": "https://www.acko.com",
+      "contacts": {
+        "dpo": "dpo@acko.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "IRDAI",
+        "regulator_portal": "https://bimabharosa.irdai.gov.in"
+      }
+    },
+    {
+      "id": "AD-PLCYBZ",
+      "company": "PolicyBazaar",
+      "category": "Insurance",
+      "website": "https://www.policybazaar.com",
+      "contacts": {
+        "dpo": "dpo@policybazaar.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "IRDAI",
+        "regulator_portal": "https://bimabharosa.irdai.gov.in"
+      }
+    },
+    {
+      "id": "AD-PRACTO",
+      "company": "Practo",
+      "category": "Healthcare",
+      "website": "https://www.practo.com",
+      "contacts": {
+        "dpo": "dpo@practo.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-1MG",
+      "company": "Tata 1mg",
+      "category": "Healthcare",
+      "website": "https://www.1mg.com",
+      "contacts": {
+        "dpo": "dpo@1mg.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-LINKEDIN",
+      "company": "LinkedIn India",
+      "category": "Jobs",
+      "website": "https://www.linkedin.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://www.linkedin.com/legal/privacy-policy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-NAUKRI",
+      "company": "Naukri",
+      "category": "Jobs",
+      "website": "https://www.naukri.com",
+      "contacts": {
+        "dpo": "dpo@naukri.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-BOOKMYSHOW",
+      "company": "BookMyShow",
+      "category": "Entertainment",
+      "website": "https://in.bookmyshow.com",
+      "contacts": {
+        "dpo": "dpo@bookmyshow.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-SPOTIFY",
+      "company": "Spotify India",
+      "category": "Entertainment",
+      "website": "https://www.spotify.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "privacy@spotify.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-UIDAI",
+      "company": "UIDAI",
+      "category": "Government",
+      "website": "https://uidai.gov.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "help@uidai.gov.in",
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-INCOMETAX",
+      "company": "Income Tax India",
+      "category": "Government",
+      "website": "https://www.incometax.gov.in",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": "ask@incometax.gov.in",
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "CP-FREECHARGE",
+      "company": "FreeCharge",
+      "category": "Fintech",
+      "website": "https://www.freecharge.in",
+      "contacts": {
+        "dpo": "dpo@freecharge.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-SIMPL",
+      "company": "Simpl",
+      "category": "Fintech",
+      "website": "https://getsimpl.com",
+      "contacts": {
+        "dpo": "dpo@getsimpl.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "CP-LAZYPAY",
+      "company": "LazyPay",
+      "category": "Fintech",
+      "website": "https://lazypay.in",
+      "contacts": {
+        "dpo": "dpo@lazypay.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "RBI",
+        "regulator_portal": "https://cms.rbi.org.in"
+      }
+    },
+    {
+      "id": "AD-DUNZO",
+      "company": "Dunzo",
+      "category": "Services",
+      "website": "https://www.dunzo.in",
+      "contacts": {
+        "dpo": "dpo@dunzo.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-PORTER",
+      "company": "Porter",
+      "category": "Services",
+      "website": "https://porter.in",
+      "contacts": {
+        "dpo": "dpo@porter.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-MAGICBRICKS",
+      "company": "MagicBricks",
+      "category": "Real Estate",
+      "website": "https://www.magicbricks.com",
+      "contacts": {
+        "dpo": "dpo@magicbricks.com",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-NOBROKER",
+      "company": "NoBroker",
+      "category": "Real Estate",
+      "website": "https://www.nobroker.in",
+      "contacts": {
+        "dpo": "dpo@nobroker.in",
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "medium",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-OLYMTRADE",
+      "company": "Olymp Trade",
+      "category": "Fintech",
+      "website": "https://olymptrade.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://olymptrade.com/privacy-policy"
+      },
+      "confidence": "low",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-AGODA",
+      "company": "Agoda",
+      "category": "Travel",
+      "website": "https://www.agoda.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://www.agoda.com/privacy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-BOOKING",
+      "company": "Booking.com",
+      "category": "Travel",
+      "website": "https://www.booking.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://www.booking.com/content/privacy.html"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "Consumer Affairs",
+        "regulator_portal": "https://consumerhelpline.gov.in"
+      }
+    },
+    {
+      "id": "AD-SNAPCHAT",
+      "company": "Snapchat",
+      "category": "Social",
+      "website": "https://www.snapchat.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://values.snap.com/privacy/privacy-policy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-TELEGRAM",
+      "company": "Telegram",
+      "category": "Social",
+      "website": "https://telegram.org",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://telegram.org/privacy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-GITHUB",
+      "company": "GitHub",
+      "category": "Technology",
+      "website": "https://github.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": "privacy@github.com",
+        "grievance": null,
+        "privacy_portal": null
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-MICROSOFT",
+      "company": "Microsoft",
+      "category": "Technology",
+      "website": "https://www.microsoft.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://privacy.microsoft.com"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    },
+    {
+      "id": "AD-REDDIT",
+      "company": "Reddit",
+      "category": "Social",
+      "website": "https://www.reddit.com",
+      "contacts": {
+        "dpo": null,
+        "privacy_email": null,
+        "grievance": null,
+        "privacy_portal": "https://www.reddit.com/policies/privacy-policy"
+      },
+      "confidence": "high",
+      "last_verified": "2026-03-19",
+      "escalation": {
+        "regulator": "CERT-In",
+        "regulator_portal": "https://www.cert-in.org.in"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "breaches": [
+    {
+      "id": 1,
+      "company": "EdTech-X",
+      "date": "2024-03-15",
+      "records_exposed": 2400000,
+      "data_types": ["email", "phone", "Aadhaar"],
+      "severity": "critical"
+    }
+  ]
+}

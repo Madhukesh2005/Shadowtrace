@@ -1,0 +1,139 @@
+{
+  "indian_breaches": [
+    {
+      "company": "Zomato",
+      "domain": "zomato.com",
+      "year": 2017,
+      "records": 17000000,
+      "data_types": ["email", "password hashes"],
+      "severity": "high",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "BigBasket",
+      "domain": "bigbasket.com",
+      "year": 2020,
+      "records": 20000000,
+      "data_types": [
+        "email",
+        "password hashes",
+        "phone",
+        "address",
+        "date of birth"
+      ],
+      "severity": "critical",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "MobiKwik",
+      "domain": "mobikwik.com",
+      "year": 2021,
+      "records": 100000000,
+      "data_types": ["email", "phone", "address", "KYC documents", "Aadhaar"],
+      "severity": "critical",
+      "confirmed": true,
+      "note": "Large-scale data exposure reported; company disputed initial breach claims",
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "Dominos India",
+      "domain": "dominos.co.in",
+      "year": 2021,
+      "records": 13000000,
+      "data_types": ["email", "phone", "location", "order history"],
+      "severity": "critical",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "Air India",
+      "domain": "airindia.in",
+      "year": 2021,
+      "records": 4500000,
+      "data_types": [
+        "passport",
+        "credit card",
+        "phone",
+        "email",
+        "date of birth"
+      ],
+      "severity": "critical",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "Upstox",
+      "domain": "upstox.com",
+      "year": 2021,
+      "records": 2500000,
+      "data_types": ["email", "phone", "KYC documents", "Aadhaar", "PAN"],
+      "severity": "critical",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "JustDial",
+      "domain": "justdial.com",
+      "year": 2019,
+      "records": 100000000,
+      "data_types": ["email", "phone", "address", "gender", "date of birth"],
+      "severity": "critical",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "Unacademy",
+      "domain": "unacademy.com",
+      "year": 2020,
+      "records": 22000000,
+      "data_types": ["email", "password hashes", "username", "date of joining"],
+      "severity": "high",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "ICMR",
+      "domain": "icmr.gov.in",
+      "year": 2023,
+      "records": 815000000,
+      "data_types": ["Aadhaar", "passport", "phone", "email"],
+      "severity": "critical",
+      "confirmed": false,
+      "note": "Reported large-scale dataset exposure; exact scope disputed in public reporting",
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "CoWIN",
+      "domain": "cowin.gov.in",
+      "year": 2023,
+      "records": 150000000,
+      "data_types": ["Aadhaar", "phone", "vaccination status"],
+      "severity": "critical",
+      "confirmed": false,
+      "note": "Data exposure allegations reported; official breach status contested",
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "MakeMyTrip",
+      "domain": "makemytrip.com",
+      "year": 2021,
+      "records": 1000000,
+      "data_types": ["email", "phone", "travel history"],
+      "severity": "high",
+      "confirmed": true,
+      "source": "HIBP / media reports"
+    },
+    {
+      "company": "Paytm",
+      "domain": "paytm.com",
+      "year": 2020,
+      "records": 3500000,
+      "data_types": ["email", "phone", "date of birth", "location"],
+      "severity": "high",
+      "confirmed": false,
+      "source": "HIBP / media reports"
+    }
+  ]
+}

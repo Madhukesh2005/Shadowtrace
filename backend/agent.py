@@ -2,6 +2,8 @@ import json
 import traceback
 from detective import run_detective
 from profiler import run_profiler
+from hacker import run_hacker
+from lawyer import run_lawyer
 
 # Master coordinator — calls all agents in sequence
 # Each agent receives output from the previous agent
@@ -34,13 +36,17 @@ def run_agent(
 
     except Exception as e:
         print(f"\n[Coordinator] WARNING: Agent 1 error. Using fallback.")
-        print(traceback.format_exc())
+        traceback.print_exc()
         detective_output = {
             "resolved_companies": [],
             "breached_companies": [],
             "aadhaar_result": {"aadhaar_found": False},
             "risk_score": 0,
-            "location_data": {"city": "Unknown", "location_count": 0, "sample_locations": []},
+            "location_data": {
+                "city": "Unknown",
+                "location_count": 0,
+                "sample_locations": []
+            },
             "total_companies_found": 0,
             "total_breaches_found": 0,
             "activity_companies": []
@@ -61,7 +67,7 @@ def run_agent(
 
     except Exception as e:
         print(f"\n[Coordinator] WARNING: Agent 2 error. Using fallback.")
-        print(traceback.format_exc())
+        traceback.print_exc()
         profiler_output = {
             "ghost_profile_nodes": {},
             "consent_expiry": [],
@@ -85,41 +91,60 @@ def run_agent(
         }
 
     # ─────────────────────────────────────────
-    # AGENT 3 — THE HACKER (Day 5)
+    # AGENT 3 — THE HACKER
     # ─────────────────────────────────────────
-    print("\n[Agent 3 — Hacker] Generating threat simulation... (placeholder)")
-    hacker_output = {
-        "phishing_sim": {
-            "subject": "Placeholder — built on Day 5",
-            "body": "Placeholder — built on Day 5",
-            "simulated": True,
-            "watermark": "SIMULATED THREAT — FOR AWARENESS ONLY"
-        },
-        "propagation_graph": [],
-        "credential_stuffing_score": 0
-    }
-    print("[Agent 3 — Hacker] Done.")
+    try:
+        hacker_output = run_hacker(
+            shadow_profile=profiler_output['shadow_profile'],
+            breached_companies=detective_output['breached_companies'],
+            location_data=detective_output['location_data'],
+            resolved_companies=detective_output['resolved_companies']
+        )
+        print("\n[Coordinator] Agent 3 complete.")
+    except Exception as e:
+        print(f"\n[Coordinator] WARNING: Agent 3 error. Using fallback.")
+        traceback.print_exc()
+        hacker_output = {
+            "phishing_sim": {},
+            "propagation_graph": {"nodes": [], "links": []},
+            "credential_stuffing_score": 0
+        }
 
     # ─────────────────────────────────────────
-    # AGENT 4 — THE LAWYER (Day 5)
+    # AGENT 4 — THE LAWYER
     # ─────────────────────────────────────────
-    print("\n[Agent 4 — Lawyer] Drafting legal package... (placeholder)")
-    lawyer_output = {
-        "legal_letters": [],
-        "compliance_deadlines": [],
-        "evidence_bundle": None
-    }
-    print("[Agent 4 — Lawyer] Done.")
+    try:
+        lawyer_output = run_lawyer(
+            consent_expiry=profiler_output['consent_expiry'],
+            shadow_profile=profiler_output['shadow_profile'],
+            email=email
+        )
+        print("\n[Coordinator] Agent 4 complete.")
+    except Exception as e:
+        print(f"\n[Coordinator] WARNING: Agent 4 error. Using fallback.")
+        traceback.print_exc()
+        lawyer_output = {
+            "legal_letters": [],
+            "compliance_deadlines": [],
+            "evidence_bundle": None
+        }
 
-    # ─────────────────────────────────────────
-    # FINAL OUTPUT
-    # ─────────────────────────────────────────
     print("\n========================================")
     print("   ShadowTrace Pipeline Complete")
     print("========================================\n")
 
+    # IMPROVEMENT: Signal-based status detection
+    pipeline_status = (
+        "complete" 
+        if (
+            detective_output.get('total_companies_found', 0) > 0 or 
+            detective_output.get('total_breaches_found', 0) > 0
+        ) 
+        else "partial_fallback"
+    )
+
     return {
-        "status": "complete" if detective_output.get('total_companies_found', 0) > 0 else "partial_fallback",
+        "status": pipeline_status,
         "email": email,
 
         # Agent 1

@@ -58,38 +58,34 @@ def build_ghost_profile(resolved_companies: list, breached_companies: list) -> d
 def calculate_consent_expiry(resolved_companies: list) -> list:
     dpo_directory = load_dpo_directory()
 
-    # Build lookup by company name (Handling the dictionary schema correctly)
-    dpo_lookup = {}
-    for key, entry in dpo_directory.items():
-        if isinstance(entry, dict) and 'company' in entry:
-            dpo_lookup[entry['company'].lower()] = entry
+    # THE FIX: Correctly read the "companies" list from the JSON
+    dpo_lookup = {
+        entry["company"].lower(): entry
+        for entry in dpo_directory.get("companies", [])
+    }
 
     consent_results = []
     current_date = datetime.now()
 
     for company in resolved_companies:
         company_name = company['company']
-        company_lower = company_name.lower()
+        
+        # SAFETY IMPROVEMENT: Handle invisible whitespace
+        company_lower = company_name.lower().strip()
 
         # Find matching DPO entry
         dpo_entry = dpo_lookup.get(company_lower)
 
         # Determine best contact
-        contact = None
-        contact_type = None
+        # Determine best contact (Read directly from Agent 1's hard work!)
+        contact = company.get('dpo_email')
+        contact_type = 'dpo_email' if contact else None
+        
         escalation = None
-
         if dpo_entry:
-            # We updated the schema to single-node escalation, but keep fallback logic robust
-            contact = dpo_entry.get('dpo_email')
-            contact_type = 'dpo_email' if contact else None
             escalation = dpo_entry.get('escalation', {})
 
         # Consent expiry logic
-        # Under DPDP Act Section 6 — consent expires when purpose expires
-        # We approximate — if company category suggests infrequent use
-        # we flag potential expiry
-
         category = company.get('category', 'Unknown')
 
         # Categories likely to have expired consent
@@ -139,9 +135,8 @@ def build_shadow_profile(
         data_types = breach.get('data_types', [])
         all_data_types.extend(data_types)
         
-        # Robust password detection (catches "Passwords", "password hashes", etc.)
+        # Robust password detection
         if any("password" in dt.lower() for dt in data_types):
-            # Handle different year/date formats safely
             year_raw = breach.get('breach_date') or breach.get('year', 'Unknown')
             year_str = str(year_raw)[:4]
             
@@ -199,7 +194,7 @@ def calculate_predictive_score(
     # Base probability from risk score
     base_probability = risk_score
 
-    # Boost if recent breaches exist (using type-safe numeric evaluation)
+    # Boost if recent breaches exist
     recent_breaches = []
     for b in breached_companies:
         year_raw = b.get('breach_date') or b.get('year')
@@ -216,7 +211,7 @@ def calculate_predictive_score(
     elif len(recent_breaches) >= 1:
         base_probability = min(base_probability + 10, 99)
 
-    # Boost if password was leaked (using robust lowercase matching)
+    # Boost if password was leaked
     password_leaked = any(
         any("password" in dt.lower() for dt in b.get('data_types', []))
         for b in breached_companies

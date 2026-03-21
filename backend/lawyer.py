@@ -39,7 +39,7 @@ def generate_legal_letters(consent_expiry: list, email: str) -> list:
     if USE_REAL_AI and client:
         try:
             prompt = f"""
-            You are drafting formal legal letters under the Digital Personal Data Protection (DPDP) Act 2025.
+            You are drafting formal legal letters under the Digital Personal Data Protection (DPDP) Act 2023.
             
             Sender Email: {email}
             Deadline: {deadline_date} (90 days)
@@ -51,7 +51,7 @@ def generate_legal_letters(consent_expiry: list, email: str) -> list:
             1. Write in FIRST PERSON as {email} themselves. NOT as a lawyer or advocate.
             2. Never use placeholders like [Name]. Use {email} as the sender identity.
             3. Address each letter to the Data Protection Officer of that specific company.
-            4. Cite Section 12 of the DPDP Act 2025 as the legal basis for the erasure demand.
+            4. Cite Section 12 of the DPDP Act 2023 as the legal basis for the erasure demand.
             5. If Section16Violation is True, firmly call out that company for failing to maintain a publicly accessible DPO contact.
             6. Threaten escalation to the listed Regulator under Section 33.
             7. End every letter with "Regards," followed by {email} on the next line.
@@ -102,7 +102,7 @@ def generate_legal_letters(consent_expiry: list, email: str) -> list:
         # The Fallback (If the AI failed, or skipped a company)
         if not body:
             body = f"To the Data Protection Officer,\n{company_name}\n\n"
-            body += f"I am writing to formally invoke my rights under the Digital Personal Data Protection Act 2025.\n\n"
+            body += f"I am writing to formally invoke my rights under the Digital Personal Data Protection Act 2023.\n\n"
             body += f"Under Section 12, I hereby demand the complete and permanent erasure of all personal data you hold pertaining to me.\n\n"
             
             if is_sec_16_violation:
@@ -115,7 +115,7 @@ def generate_legal_letters(consent_expiry: list, email: str) -> list:
             "company": company_name,
             "recipient_email": contact or None,
             "delivery_status": "missing_contact" if not contact else "ready",
-            "subject": "Formal Data Erasure Request — DPDP Act 2025 — Section 12",
+            "subject": "Formal Data Erasure Request — DPDP Act 2023 — Section 12",
             "body": body,
             "dpdp_sections_cited": company_data.get('dpdp_sections', ["Section 12", "Section 33"]),
             "compliance_deadline_days": 90,

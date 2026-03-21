@@ -7,6 +7,14 @@
       "records_exposed": 2400000,
       "data_types": ["email", "phone", "Aadhaar"],
       "severity": "critical"
+    },
+    {
+      "id": 2,
+      "company": "FinPay India",
+      "date": "2025-11-20",
+      "records_exposed": 8500000,
+      "data_types": ["email", "phone", "UPI ID", "Aadhaar"],
+      "severity": "critical"
     }
   ]
 }

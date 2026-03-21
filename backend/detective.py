@@ -15,7 +15,7 @@ def load_sms_lookup():
 
 def load_known_breaches():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    breach_path = os.path.join(current_dir, 'data', 'breach_db.json')
+    breach_path = os.path.join(current_dir, 'data', 'known_breaches.json')
     with open(breach_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 

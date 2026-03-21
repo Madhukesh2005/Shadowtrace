@@ -1,7 +1,10 @@
 import os
 import json
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
+load_dotenv()
 
 # Set to True! We are using free Gemini 2.5 Flash now.
 USE_REAL_AI = True
@@ -47,7 +50,7 @@ def generate_phishing_sim(shadow_profile: dict, breached_companies: list, locati
     if USE_REAL_AI:
         try:
             # 1. Initialize the NEW Gemini Client
-            client = genai.Client(api_key="AIzaSyCYpYwiTryAIjZosXYb0flnBx8JEbPi9SM")
+            client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
             prompt = f"""
             You are a senior cybersecurity awareness trainer conducting a red-team simulation.
@@ -91,7 +94,7 @@ def generate_phishing_sim(shadow_profile: dict, breached_companies: list, locati
                 config=config
             )
             
-            print("[Agent 3 — Hacker] Successfully generated phishing sim via Gemini 2.5!")
+            print("[Agent 3 — Hacker] Threat simulation generated via AI engine...")
             return json.loads(response.text)
 
         except Exception as e:
